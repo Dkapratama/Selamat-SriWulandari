@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('cihuy.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+div {
+    padding: 20px;
+    margin: 100px;
+    background-color: rgba(43, 35, 35, 0.822);
+    border-radius: 10px;
+    background-size: 100vh;
+    background-position: center;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+div h1 {
+    color: white;
+    text-align: center;
+    font-size: medium;
+    align-items: center;
+}
+
+div h2 {
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
+
+div p {
+    padding: 2%;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(27, 136, 0, 0.733);
+    text-align: center;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+div a {
+    border: solid lightgreen;
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 30px;
+}
+
+div a:hover {
+    background-color: green;
+}
+footer {
+    background-color: rgba(27, 24, 27, 0.6);
+    color: rgba(255, 255, 255, 0.678);;
+    text-align: center;
+    padding: 6px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+@media screen and (max-width: 476px) {
+    body {
+        background-size: 300%;
+        background-position: 50%;
+        background-position-y: 1px;
+        background-position-x: 53%;
+    }
+    div {
+        padding: 2%;
+        margin: 8%;
+        align-items: center;
+    }
+}

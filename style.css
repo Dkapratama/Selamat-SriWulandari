@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('picsart_24-03-15_23-07-21-120.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #333;
+    background-image: url('43PpikbEsTKMY.jpg');
+    color: #ffffff;
+    padding: 1px;
+    background-size: 100%;
+    text-align: center;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.836);
+}
+
+nav {
+    background-color: rgba(27, 24, 27, 0.6);
+    color: #fff;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 300px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+nav a:hover {
+    background-color: #666;
+    border-radius: 30px;
+}
+
+section {
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.733);
+}
+
+section a {
+    border: solid pink;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 30px;
+}
+
+section a:hover {
+    background-color: pink;
+}
+
+footer {
+    background-color: rgba(27, 24, 27, 0.6);
+    color: rgba(255, 255, 255, 0.678);
+    ;
+    text-align: center;
+    padding: 6px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+@media screen and (max-width: 476px) {
+    body {
+        background-size: 275%;
+        background-position: 50%;
+        background-position-y: 9vh;
+    }
+
+    header {
+        padding: 1px;
+        font-size: 16px;
+    }
+
+    nav {
+        font-size: 10px;
+        padding: 43;
+        margin: 4vh;
+    }
+
+    section h2 {
+        font-size: 20px;
+    }
+
+
+
+}
